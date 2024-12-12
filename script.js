@@ -34,4 +34,7 @@ function registerWithGoogle() {
     alert("Redirecting to Google registration...");
     // Здесь будет добавлена интеграция Google OAuth на следующем этапе
 }
+function redirectToRegister() {
+    window.location.href = "register.html";
+}
 
