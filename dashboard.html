@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - ROY Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, <span class="user-name">Student</span>!</h1>
+    </header>
+    <main>
+        <section class="progress">
+            <h2>Your Progress</h2>
+            <div class="progress-bar">
+                <div class="progress-completed" style="width: 40%;">40%</div>
+            </div>
+        </section>
+        <section class="recommendations">
+            <h2>Recommendations</h2>
+            <ul>
+                <li>Complete "Basics of Python" lesson</li>
+                <li>Take the "Data Structures" test</li>
+            </ul>
+        </section>
+        <button onclick="logout()">Logout</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
