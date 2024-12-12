@@ -40,4 +40,7 @@ function redirectToRegister() {
 function logout() {
     window.location.href = "index.html";
 }
-
+function login() {
+    // Здесь можно добавить проверку введённых данных в будущем
+    window.location.href = "dashboard.html";
+}
