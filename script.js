@@ -37,4 +37,7 @@ function registerWithGoogle() {
 function redirectToRegister() {
     window.location.href = "register.html";
 }
+function logout() {
+    window.location.href = "index.html";
+}
 
