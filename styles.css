@@ -114,3 +114,19 @@ body {
 .login-links a:hover {
     text-decoration: underline;
 }
+/*googlecss*/
+.google-button {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background: #db4437;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.google-button:hover {
+    background: #c33d2e;
+}
