@@ -44,3 +44,18 @@ function login() {
     // Здесь можно добавить проверку введённых данных в будущем
     window.location.href = "dashboard.html";
 }
+
+
+
+function selectRole(role) {
+    // Сохраняем выбранную роль в localStorage
+    localStorage.setItem("userRole", role);
+
+    // Перенаправляем пользователя в соответствующий личный кабинет
+    if (role === "student") {
+        window.location.href = "student-dashboard.html";
+    } else if (role === "mentor") {
+        window.location.href = "mentor-dashboard.html";
+    }
+}
+
