@@ -59,3 +59,17 @@ function selectRole(role) {
     }
 }
 
+
+
+function login() {
+    const userRole = localStorage.getItem("userRole");
+
+    if (userRole === "student") {
+        window.location.href = "student-dashboard.html";
+    } else if (userRole === "mentor") {
+        window.location.href = "mentor-dashboard.html";
+    } else {
+        // Если роль ещё не выбрана, отправляем на выбор роли
+        window.location.href = "role-selection.html";
+    }
+}
