@@ -140,3 +140,65 @@ body {
     font-size: 1.2em;
 }
 
+
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-name {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.progress-completed {
+    height: 100%;
+    background: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.recommendations {
+    margin: 20px;
+}
+
+.recommendations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendations li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
