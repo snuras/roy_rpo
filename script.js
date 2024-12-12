@@ -30,4 +30,8 @@ function handleRegister() {
     console.log("Email:", email);
     alert("Registration successful!");
 }
+function registerWithGoogle() {
+    alert("Redirecting to Google registration...");
+    // Здесь будет добавлена интеграция Google OAuth на следующем этапе
+}
 
